@@ -51,13 +51,13 @@
 
   display: block;
 
-  background: linear-gradient(
-      270deg,
+  @include background(linear-gradient(
+      0deg,
       $progressGradient0 0%,
       $progressGradient34 34%,
       $progressGradient65 65%,
       $progressGradient100 100%
-  );
+  ));
   margin: 0;
   position: relative;
   top: 2px;
