@@ -1,0 +1,129 @@
+/* Import Libs */
+/* Font size calculations */
+/* Colors */
+/* Typography Colors */
+/* line 32, ../config.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+}
+
+/* Typography */
+/* line 41, ../config.scss */
+h1 {
+  font-size: 30px;
+  font-size: 1.875pxrem;
+  line-height: 1.4;
+  margin: 23px 0;
+  text-align: center;
+}
+
+/* line 48, ../config.scss */
+h2 {
+  font-size: 28px;
+  font-size: 1.75pxrem;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+/* line 53, ../config.scss */
+h3 {
+  font-size: 24px;
+  font-size: 1.5pxrem;
+  line-height: 1.4;
+  margin: 17px 0;
+}
+
+/* line 58, ../config.scss */
+h4 {
+  font-size: 20px;
+  font-size: 1.25pxrem;
+  line-height: 1.5;
+  margin: 13px 0;
+}
+
+/* line 63, ../config.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1pxrem;
+  line-height: 1.5;
+  margin: 11px 0;
+}
+
+/* line 68, ../config.scss */
+h6 {
+  font-size: 14px;
+  font-size: 0.875pxrem;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+/* line 77, ../config.scss */
+body h1:first-child {
+  background-color: #cccccc;
+  margin-top: 0;
+}
+
+/* line 83, ../config.scss */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* line 88, ../config.scss */
+.container > h6 {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 93, ../config.scss */
+.component {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 99, ../config.scss */
+.component .demo {
+  background-color: #e9e9e9;
+  width: inherit;
+  height: 200px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 106, ../config.scss */
+.component .code {
+  background-color: #999999;
+  width: inherit;
+  height: 100px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 112, ../config.scss */
+.component .code pre {
+  width: 80%;
+  height: 30px;
+  margin: 0px auto;
+  padding: 10px 0;
+}
+
+/* line 123, ../config.scss */
+body h1:first-child {
+  background-color: #e9e9e9;
+  margin-top: 0;
+}

@@ -1,0 +1,117 @@
+/* Porject Specific Colors */
+@-webkit-keyframes volumecontrol {
+  /* line 34, ../_variables.scss */
+  0% {
+    width: 2%;
+  }
+
+  /* line 35, ../_variables.scss */
+  50% {
+    width: 98.5%;
+  }
+
+  /* line 36, ../_variables.scss */
+  100% {
+    width: 2%;
+  }
+}
+
+@-moz-keyframes volumecontrol {
+  /* line 39, ../_variables.scss */
+  0% {
+    width: 2%;
+  }
+
+  /* line 40, ../_variables.scss */
+  50% {
+    width: 98.5%;
+  }
+
+  /* line 41, ../_variables.scss */
+  100% {
+    width: 2%;
+  }
+}
+
+@keyframes volumecontrol {
+  /* line 44, ../_variables.scss */
+  0% {
+    width: 2%;
+  }
+
+  /* line 45, ../_variables.scss */
+  50% {
+    width: 98.5%;
+  }
+
+  /* line 46, ../_variables.scss */
+  100% {
+    width: 2%;
+  }
+}
+
+/* line 5, ../main.scss */
+.component .demo {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, rgba(63, 40, 51, 0)), color-stop(100%, #3f2833)), -webkit-gradient(radial, 50%, 0, 50%, 97, color-stop(0%, #babeab), color-stop(45%, #3f7183), color-stop(97%, #3f2731));
+  background: -webkit-linear-gradient(top, rgba(63, 40, 51, 0) 50%, #3f2833 100%), -webkit-radial-gradient(center, ellipse farthest-corner, #babeab 0%, #3f7183 45%, #3f2731 97%);
+  background: -moz-linear-gradient(top, rgba(63, 40, 51, 0) 50%, #3f2833 100%), -moz-radial-gradient(center, ellipse farthest-corner, #babeab 0%, #3f7183 45%, #3f2731 97%);
+  background: -o-linear-gradient(top, rgba(63, 40, 51, 0) 50%, #3f2833 100%), -o-radial-gradient(center, ellipse farthest-corner, #babeab 0%, #3f7183 45%, #3f2731 97%);
+  background: linear-gradient(top, rgba(63, 40, 51, 0) 50%, #3f2833 100%), radial-gradient(center, ellipse farthest-corner, #babeab 0%, #3f7183 45%, #3f2731 97%);
+}
+
+/* line 12, ../main.scss */
+.btn {
+  width: 250px;
+  height: 35px;
+  background: linear-gradient(to bottom, rgba(35, 54, 59, 0.6) 0%, rgba(19, 22, 26, 0.8) 100%);
+  margin: 0 auto;
+  top: 80px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 0px 0px 3px;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 0px 0px 3px;
+  box-shadow: inset rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 0px 0px 3px;
+}
+
+/* line 33, ../main.scss */
+.progress {
+  width: 90%;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50%;
+  margin: -6px auto 0 auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* line 46, ../main.scss */
+.progress > span {
+  width: 100px;
+  height: 8px;
+  display: block;
+  background: linear-gradient(270deg, #8aa7f7 0%, #77d3e7 34%, #43eab2 65%, #95ef83 100%);
+  margin: 0;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-animation: volumecontrol 8s infinite ease-in-out both;
+  -moz-animation: volumecontrol 8s infinite ease-in-out both;
+  -ms-animation: volumecontrol 8s infinite ease-in-out both;
+  -o-animation: volumecontrol 8s infinite ease-in-out both;
+  animation: volumecontrol 8s infinite ease-in-out both;
+}
