@@ -52,7 +52,7 @@
   display: block;
 
   @include background(linear-gradient(
-      0deg,
+      270deg,
       $progressGradient0 0%,
       $progressGradient34 34%,
       $progressGradient65 65%,
